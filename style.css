@@ -22,23 +22,6 @@ body{
     justify-content: space-around;
    
 
-    
-
-
-    /* margin: auto;
-    display: flex;
-    width: 70%;
-    cursor: pointer;
-    margin-top: -10px;
-    justify-content: space-evenly;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(206, 181, 181);
-    color: rgb(255, 255, 255);
-    padding: 8px 40px;
-    background-color: ; */
 } 
 .list ul{
     color: white;
@@ -46,6 +29,10 @@ body{
     gap: 50px;
     align-items: center;
 
+}
+.list ul a{
+    color: white;
+    text-decoration: none;
 }
 .logo{
     color: white;
