@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>car designing</title>
+    <title>Car Designing</title>
     <link rel="stylesheet" href="style.css">
-   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
 </head>
 <body>
     <div class="header">
@@ -33,7 +31,7 @@
     <div class="services">
         <div class="text">
             <svg viewBox="0 0 10 2">
-                <text font-weight="bold" x="5" y="1" text-anchor="middle" font-size="1" fill="none" stroke-width=".015" stroke="#fff" font-family="sans-serif">AUTO SERVICES</text>
+                <text font-weight="bold" x="5" y="1" text-anchor="middle" font-size="1" fill="none" stroke-width=".015" stroke="#808080"" font-family="sans-serif">AUTO SERVICES</text>
             </svg>
         </div>
     </div>
@@ -54,7 +52,7 @@
     </div>
 
     <script>
-        gsap.from("#carImage", { opacity: 0, duration: 1 });
+        gsap.from("#carImage", { x: "-10%", duration: 1, ease: "linear" });
     </script>
 </body>
 </html>
