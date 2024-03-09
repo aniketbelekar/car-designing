@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car designing</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            logo
+        </div>
+        <div class="list">
+            <ul style="list-style-type: none;">
+                <li>HOME +</li>
+                <li>PAGES +</li>
+                <li>SERVICES +</li>
+                <li>SHOP +</li>
+                <li>BLOGS +</li>
+            </ul>
+        </div>
+        <div class="mobilenum">
+            +911234567890
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+    </div>
+    
+    <div class="services">
+        <div class="text">
+            <svg viewBox="0 0 10 2">
+                <text font-weight="bold" x="5" y="1" text-anchor="middle" font-size="1" fill="none" stroke-width=".015" stroke="#fff" font-family="sans-serif">AUTO SERVICES</text>
+            </svg>
+        </div>
+    </div>
+    <div class="text2">
+        <div class="text3">
+            <h3>Car Servicing in India</h3>
+        </div>
+        <div class="text4">
+            <p>Fix Any Complex Car Solution</p>
+        </div>
+        <div class="text5">
+            <h4>Take Payment Online with Scalable Platform With Your Perfect Bussines </h4>
+        </div>
+        <button class="btn">Get Services</button>
+    </div>
+    <div class="img">
+        <img id="carImage" src="https://purepng.com/public/uploads/large/purepng.com-orange-nissan-gtr-carcarvehicletransportnissan-961524653189rdctf.png" alt="">
+    </div>
+
+    <script>
+        gsap.from("#carImage", { opacity: 0, duration: 1 });
+    </script>
+</body>
+</html>
